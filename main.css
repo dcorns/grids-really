@@ -3,4 +3,25 @@ body {
     padding: 0;
     font-family: sans-serif;
     box-sizing: border-box;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 200px 300px auto;
+}
+#div1{
+    background-color: antiquewhite;
+}
+#div2{
+    background-color: aqua;
+}
+#div3{
+    background-color: brown;
+}
+#div4{
+    background-color: chocolate;
+}
+#div5{
+    background-color: darkcyan;
+}
+#div6{
+    background-color: chartreuse;
 }
