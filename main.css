@@ -10,12 +10,33 @@ body {
 }
 #div1{
     background-color: antiquewhite;
+    display: grid;
+}
+#div1a{
+    background-color: darkorange;
+}
+#div1b{
+     background-color: darkgreen;
+ }
+#div1c{
+    background-color: darksalmon;
+}
+#div1d{
+    background-color: cadetblue;
 }
 #div2{
     background-color: aqua;
 }
 #div3{
     background-color: brown;
+    display: grid;
+    grid-template-rows: 50% 25%;
+}
+#div3a{
+    background-color: darkslategrey;
+}
+#div3b{
+    background-color: darkkhaki;
 }
 #div4{
     background-color: chocolate;
@@ -25,4 +46,15 @@ body {
 }
 #div6{
     background-color: chartreuse;
+    display: grid;
+    grid-template-columns: 50px auto;
+}
+#div6a{
+    background-color: blueviolet;
+}
+#div6b{
+    background-color: coral;
+}
+#div6c{
+    background-color: crimson;
 }
