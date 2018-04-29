@@ -77,6 +77,8 @@ body {
     grid-auto-rows: 50px;
     grid-auto-flow: column;
     grid-area:div6;
+    justify-items: right;
+    align-items: end;
 }
 #div6a{
     background-color: blueviolet;
