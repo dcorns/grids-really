@@ -62,6 +62,23 @@ body {
 #div4{
     background-color: chocolate;
     grid-area:div4;
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 30px 30px;
+    justify-content: space-around;
+    align-content: space-around;
+}
+#div4a{
+    background-color: coral;
+}
+#div4b{
+    background-color: aquamarine;
+}
+#div4c{
+background-color: cornsilk;
+}
+#div4d{
+background-color: indigo;
 }
 #div5{
     background-color: darkcyan;
