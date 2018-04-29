@@ -70,9 +70,11 @@ body {
 }
 #div4a{
     background-color: coral;
+    align-self: end;
 }
 #div4b{
     background-color: aquamarine;
+    justify-self: right;
 }
 #div4c{
 background-color: cornsilk;
