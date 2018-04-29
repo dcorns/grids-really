@@ -17,6 +17,7 @@ body {
     background-color: antiquewhite;
     display: grid;
     grid-template-rows: 50px 30px;
+    grid-template-columns: [c1] 1fr [c2] 1fr [c3] 1fr [c4] 1fr [c5] 1fr [c6];
     grid-auto-rows: 20px;
     grid-area: div1;
 }
@@ -28,6 +29,7 @@ body {
  }
 #div1c{
     background-color: darksalmon;
+    grid-column: c3/c5;
 }
 #div1d{
     background-color: cadetblue;
