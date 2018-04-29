@@ -5,15 +5,20 @@ body {
     box-sizing: border-box;
     text-align: center;
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(200px, 1fr));
-    grid-template-rows: 250px 250px;
+    grid-template-columns: repeat(6,minmax(100px, 1fr));
+    grid-template-rows: 200px 200px 150px;
     grid-gap: 20px;
+    grid-template-areas:
+            "div1 div1 div1 div1 div1 div1"
+"div4 div4 div4 div5 div5 div5"
+"div6 div6 div6 div6 div3 div2";
 }
 #div1{
     background-color: antiquewhite;
     display: grid;
     grid-template-rows: 50px 30px;
     grid-auto-rows: 20px;
+    grid-area: div1;
 }
 #div1a{
     background-color: darkorange;
@@ -29,6 +34,7 @@ body {
 }
 #div2{
     background-color: aqua;
+    grid-area: div2;
 }
 #div3{
     background-color: brown;
@@ -36,6 +42,7 @@ body {
     grid-template-rows: 50% 25%;
     grid-template-columns: repeat(auto-fit,minmax(20px, 30px));;
     grid-gap: 20px 5px;
+    grid-area: div3;
 }
 #div3a{
     background-color: darkslategrey;
@@ -49,9 +56,11 @@ body {
 }
 #div4{
     background-color: chocolate;
+    grid-area:div4;
 }
 #div5{
     background-color: darkcyan;
+    grid-area:div5;
 }
 #div6{
     background-color: chartreuse;
@@ -62,6 +71,7 @@ body {
     grid-auto-columns: 20px;
     grid-auto-rows: 50px;
     grid-auto-flow: column;
+    grid-area:div6;
 }
 #div6a{
     background-color: blueviolet;
